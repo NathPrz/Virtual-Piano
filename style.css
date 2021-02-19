@@ -1,0 +1,43 @@
+body {
+    background-color: brown;
+}
+
+.container {
+    margin: 13%;
+    position: relative;
+}
+.white-keys kbd {
+    background-color: white;
+    display: inline-block;
+    height: 30em;
+    width: 10em;
+    border-style: solid;
+    border-color: black;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin: auto;
+    background-color: black;
+    height: 16em;
+    width: 5em;
+    color: white;
+}
+#w{
+    left: 8em;
+}
+#e {
+    left: 19em;
+}
+#t {
+    left: 40.5em;
+}
+#y {
+    left: 50.8em;
+}
+#u {
+    left: 62em;
+}
